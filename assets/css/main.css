@@ -24287,12 +24287,7 @@ header.style-4 .header-logo a img {
   }
 }
 
-.breadcrumb-section {
-  background-image: linear-gradient(270deg, rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7) 101.02%), url("../image/banner-img/breadcrumb-wrapper.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 117px 0 117px;
-}
+
 
 @media (max-width: 991px) {
   .breadcrumb-section {
@@ -37714,6 +37709,11 @@ header.style-4 .header-logo a img {
   font-size: 13px;
   font-weight: 500;
   z-index: -1;
+}
+@media (max-width:500px) {
+  .icon-wrapper:hover .hover-label{
+    display: none !important;
+  }
 }
 
 /* Show on hover */

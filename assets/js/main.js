@@ -444,7 +444,7 @@
 // ................
   var swiper = new Swiper(".testimonial-card-slider", {
     slidesPerView: 1,
-    speed: 1500,
+    speed: 2500,
     spaceBetween: 25,
     loop: true,
     effect: 'fade',             // Use the fade effect

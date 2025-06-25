@@ -14530,7 +14530,7 @@ header.style-3 .nav-right .mobile-menu-btn {
 
   header.style-3 .main-menu .menu-list {
     padding-top: 30px;
-    padding-bottom: 30px;
+    
   }
 
   header.style-3 .main-menu>ul {
@@ -38020,5 +38020,15 @@ header.style-4 .header-logo a img {
   .offcanvas-contain{
     display: none;
   }
+}
+.carousel-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  background-color: #092F46 !important;
+  border-radius: 10px !important;
 }
 

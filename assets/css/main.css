@@ -13413,6 +13413,12 @@ header.style-2 .header-logo a img {
     padding: 20px 0;
   }
 }
+@media (max-width: 770px) {
+  .footer-section-two .footer-bottom {
+    margin-top: 18px;
+  }
+}
+
 
 .footer-section-two .footer-bottom .copy-write-area p {
   font-family: "Rubik", serif;
